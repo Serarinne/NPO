@@ -35,4 +35,30 @@ return [
         ],
     ],
 
+    'bunny' => [
+        'storage_name' => env('BUNNY_STORAGE_NAME'),
+        'api_key' => env('BUNNY_API_KEY'),
+        'base_url' => env('BUNNY_ENDPOINT'),
+        'cdn_url'      => env('STORAGE_URL'),
+    ],
+
+    'danbooru' => [
+        'username' => env('DANBOORU_USERNAME'),
+        'api_key' => env('DANBOORU_API_KEY'),
+    ],
+
+    'gelbooru' => [
+        'user_id' => env('GELBOORU_USER_ID'),
+        'api_key' => env('GELBOORU_API_KEY'),
+        'base_url' => 'https://gelbooru.com/index.php',
+    ],
+
+    'zerochan' => [
+        'z_id' => env('ZEROCHAN_Z_ID'),
+        'z_hash' => env('ZEROCHAN_Z_HASH'),
+        'z_theme' => env('ZEROCHAN_Z_THEME'),
+        'phpsessid' => env('ZEROCHAN_PHPSESSID'),
+        'xbotcheck' => env('ZEROCHAN_XBOTCHECK'),
+    ],
+
 ];
